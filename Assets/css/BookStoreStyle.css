@@ -24,7 +24,9 @@ html {
 body {
   font-family: 'Montserrat';
   margin: 0;
+  background-color: rgba(12, 24, 36, 0.9);
   padding: 0;
+  color: var(--main-dark-color);
 }
 
 ul {
@@ -42,5 +44,188 @@ a {
 a:hover {
   color: white;
   text-decoration: none;
+}
+
+/* header style */
+header {
+  background-color: white;
+  padding: .5rem 1rem;
+}
+
+header h2 {
+  color: var(--main-color);
+  font-weight: 900;
+  padding: .5rem;
+  margin: 0;
+  display: inline-block;
+}
+
+header .logout {
+  float: right;
+  height: 100%;
+  padding: .5rem;
+  border-left: 2px solid var(--grey-color);
+}
+
+header .logout button {
+  font-weight: bold;
+}
+
+header .logout button i {
+  color: var(--main-color);
+}
+
+/* Recurring , customer section style */
+.products .contain .content .filter input, .Recurring .contain, .customer .contain, .supplier .contain, .recurring-edit .contain {
+  padding: 0;
+  margin: 1rem 7rem;
+}
+
+.products .contain .content .filter input, .Recurring .contain .header, .customer .contain .header, .supplier .contain .header, .recurring-edit .contain .header {
+  padding: 1rem 0;
+}
+
+.products .contain .content .filter input, .Recurring .contain .header h3, .customer .contain .header h3, .supplier .contain .header h3, .recurring-edit .contain .header h3 {
+  display: inline-block;
+  color: white;
+}
+
+.products .contain .content .filter input, .Recurring .contain .header .editbar, .customer .contain .header .editbar, .supplier .contain .header .editbar, .recurring-edit .contain .header .editbar {
+  float: right;
+}
+
+.products .contain .content .filter input, .Recurring .contain .header .editbar .btn, .customer .contain .header .editbar .btn, .supplier .contain .header .editbar .btn, .recurring-edit .contain .header .editbar .btn {
+  background-color: var(--main-color);
+  color: white;
+  padding: .5rem 1rem;
+}
+
+.products .contain .content .filter input, .Recurring .contain .header .editbar .btn i, .customer .contain .header .editbar .btn i, .supplier .contain .header .editbar .btn i, .recurring-edit .contain .header .editbar .btn i {
+  font-size: .85rem;
+}
+
+.products .contain .content .filter input, .Recurring .contain .header .editbar button.add, .customer .contain .header .editbar button.add, .supplier .contain .header .editbar button.add, .recurring-edit .contain .header .editbar button.add {
+  margin-right: .5rem;
+}
+
+.products .contain .content .filter input, .Recurring .contain .content, .customer .contain .content, .supplier .contain .content, .recurring-edit .contain .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.products .contain .content .filter input, .Recurring .contain .content table, .customer .contain .content table, .supplier .contain .content table, .recurring-edit .contain .content table {
+  color: white;
+  margin-top: 1rem;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 75%;
+          flex: 0 0 75%;
+}
+
+.products .contain .content .filter input, .Recurring .contain .content table tbody tr th, .Recurring .contain .content table tbody tr td, .Recurring .contain .content table thead tr th, .Recurring .contain .content table thead tr td, .customer .contain .content table tbody tr th, .customer .contain .content table tbody tr td, .customer .contain .content table thead tr th, .customer .contain .content table thead tr td, .supplier .contain .content table tbody tr th, .supplier .contain .content table tbody tr td, .supplier .contain .content table thead tr th, .supplier .contain .content table thead tr td, .recurring-edit .contain .content table tbody tr th, .recurring-edit .contain .content table tbody tr td, .recurring-edit .contain .content table thead tr th, .recurring-edit .contain .content table thead tr td {
+  border: 1px solid white;
+  padding: 1rem .5rem;
+}
+
+.products .contain .content .filter input, .Recurring .contain .content table tbody tr td:nth-child(1), .Recurring .contain .content table thead tr td:nth-child(1), .customer .contain .content table tbody tr td:nth-child(1), .customer .contain .content table thead tr td:nth-child(1), .supplier .contain .content table tbody tr td:nth-child(1), .supplier .contain .content table thead tr td:nth-child(1), .recurring-edit .contain .content table tbody tr td:nth-child(1), .recurring-edit .contain .content table thead tr td:nth-child(1) {
+  width: 2%;
+}
+
+.products .contain .content .filter input, .Recurring .contain .content table tbody tr td:last-child, .Recurring .contain .content table thead tr td:last-child, .customer .contain .content table tbody tr td:last-child, .customer .contain .content table thead tr td:last-child, .supplier .contain .content table tbody tr td:last-child, .supplier .contain .content table thead tr td:last-child, .recurring-edit .contain .content table tbody tr td:last-child, .recurring-edit .contain .content table thead tr td:last-child {
+  text-align: right;
+}
+
+.products .contain .content .filter input, .Recurring .contain .content table tbody tr td button.edit, .Recurring .contain .content table thead tr td button.edit, .customer .contain .content table tbody tr td button.edit, .customer .contain .content table thead tr td button.edit, .supplier .contain .content table tbody tr td button.edit, .supplier .contain .content table thead tr td button.edit, .recurring-edit .contain .content table tbody tr td button.edit, .recurring-edit .contain .content table thead tr td button.edit {
+  background-color: white;
+}
+
+.products .contain .content .filter input, .Recurring .contain .content table tbody tr td button.edit i, .Recurring .contain .content table thead tr td button.edit i, .customer .contain .content table tbody tr td button.edit i, .customer .contain .content table thead tr td button.edit i, .supplier .contain .content table tbody tr td button.edit i, .supplier .contain .content table thead tr td button.edit i, .recurring-edit .contain .content table tbody tr td button.edit i, .recurring-edit .contain .content table thead tr td button.edit i {
+  color: var(--main-dark-color);
+}
+
+.products .contain .content .filter input, .Recurring .contain .content table tbody tr .action, .Recurring .contain .content table thead tr .action, .customer .contain .content table tbody tr .action, .customer .contain .content table thead tr .action, .supplier .contain .content table tbody tr .action, .supplier .contain .content table thead tr .action, .recurring-edit .contain .content table tbody tr .action, .recurring-edit .contain .content table thead tr .action {
+  text-align: right;
+}
+
+.products .contain .content .filter input, .Recurring .contain .content .filter, .customer .contain .content .filter, .supplier .contain .content .filter, .recurring-edit .contain .content .filter {
+  margin: 1rem 0 0 1rem;
+  background-color: white;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 25%;
+          flex: 0 0 25%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.products .contain .content .filter input, .Recurring .contain .content .filter h4, .customer .contain .content .filter h4, .supplier .contain .content .filter h4, .recurring-edit .contain .content .filter h4 {
+  padding: 1rem;
+  background-color: var(--main-color);
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  letter-spacing: .05rem;
+}
+
+.products .contain .content .filter input, .Recurring .contain .content .filter h4 i, .customer .contain .content .filter h4 i, .supplier .contain .content .filter h4 i, .recurring-edit .contain .content .filter h4 i {
+  display: inline-block;
+  font-size: .85rem;
+}
+
+.products .contain .content .filter input, .Recurring .contain .content .filter input, .customer .contain .content .filter input, .supplier .contain .content .filter input, .recurring-edit .contain .content .filter input {
+  width: 94%;
+  margin: 1rem 3%;
+}
+
+.products{
+  display: none;
+}
+
+.Recurring {
+  display: none;
+}
+
+.customer {
+  display: none;
+}
+
+.supplier {
+  display: none;
+}
+
+
+
+
+.recurring-edit form {
+  width: 100%;
+  border: 1px solid white;
+  margin-top: 2rem;
+}
+
+.recurring-edit form .form-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  color: white;
+  border-bottom: 1px solid white;
+  padding: 1rem;
+}
+
+.recurring-edit form .form-group label {
+  line-height: 38px;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 12%;
+          flex: 0 0 12%;
+}
+
+.recurring-edit form .form-group h5 {
+  width: 100%;
+}
+
+.recurring-edit form .form-group h5 i {
+  font-size: 1rem;
+  padding: 0 2rem 0 0;
 }
 /*# sourceMappingURL=BookStoreStyle.css.map */
