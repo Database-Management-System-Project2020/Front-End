@@ -62,7 +62,7 @@ header{
 }
 
 /* Recurring , customer section style */
-.Recurring , .customer, .supplier, .recurring-edit{
+.products, .Recurring , .customer, .supplier, .recurring-edit{
 	.contain{
 		padding: 0;
 		margin: 1rem 7rem;
@@ -145,6 +145,9 @@ header{
 	}
 }
 
+.products{
+	display: none;
+}
 .Recurring{
 	display: none;
 }
